@@ -1,9 +1,9 @@
 export function calculatePrice(price, currency) {
     switch (currency) {
       case 'EUR':
-        return price * 0.86;
+        return price * 0.84;
       case 'CAD':
-        return price * 1.33;
+        return price * 1.25;
       default:
         return price;
     }
